@@ -15,8 +15,3 @@ def length_of_longest_substring(s)
   size = recorder.size if size < recorder.size
   size
 end
-
-# test
-#
-s = "abcabcbb"
-puts length_of_longest_substring(s)
