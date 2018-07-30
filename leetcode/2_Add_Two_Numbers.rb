@@ -1,15 +1,3 @@
-class ListNode
-  attr_accessor :val, :next
-    def initialize(val)
-      @val = val
-      @next = nil
-    end
-end
-
-# @param {ListNode} l1
-# @param {ListNode} l2
-# @return {ListNode}
-#
 class AddTwoNumbers
   def solution(l1, l2)
     l = ListNode.new(0)
