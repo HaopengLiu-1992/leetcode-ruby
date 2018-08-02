@@ -1,4 +1,7 @@
+require_relative "helper"
+
 class AddTwoNumbers
+  include Helper::LinkedListHelper
   def solution(l1, l2)
     l = ListNode.new(0)
     p = l

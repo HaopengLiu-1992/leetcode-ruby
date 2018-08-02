@@ -1,8 +1,7 @@
 require_relative "helper"
 
 class MiddleOfTheLinkedList
-  extend Helper
-  include Helper::LinkedListHelper::ListNode
+  include Helper::LinkedListHelper
   def solution(head)
     slow = head
     fast = head
@@ -16,5 +15,6 @@ class MiddleOfTheLinkedList
 end
 
 a =  MiddleOfTheLinkedList.new
-b = init_list_by_array[1,2,3]
-puts a.solution(b)
+list = a.init_list_by_array([1,2,3])
+sol = a.solution(list)
+puts a.list_to_array(sol)
