@@ -1,5 +1,13 @@
 module Helper
   module LinkedListHelper
+    class ListNode
+      attr_accessor :val, :next
+      def initialize(val)
+        @val = val
+        @next = nil
+      end
+    end
+
     def list_to_array(l)
       arr = []
       while l != nil
@@ -19,13 +27,5 @@ module Helper
       head
     end
 
-  end
-end
-
-class ListNode
-  attr_accessor :val, :next
-  def initialize(val)
-    @val = val
-    @next = nil
   end
 end
