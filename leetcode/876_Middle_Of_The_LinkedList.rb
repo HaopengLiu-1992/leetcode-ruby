@@ -13,8 +13,3 @@ class MiddleOfTheLinkedList
     return slow
   end
 end
-
-a =  MiddleOfTheLinkedList.new
-list = a.init_list_by_array([1,2,3])
-sol = a.solution(list)
-puts a.list_to_array(sol)
