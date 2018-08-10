@@ -10,6 +10,7 @@ class TwoSumTest < Test::Unit::TestCase
 
   def test
     (0..1).each do |i|
+      put "hello"
       assert_equal( @two_sum.solution(@test_arrays[i], @test_targets[i]), @test_results[i] )
     end
   end
