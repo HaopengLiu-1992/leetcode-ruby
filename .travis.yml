@@ -1,0 +1,8 @@
+sudo: false
+language: ruby
+rvm: ruby-2.3.4
+dist: trusty
+env:
+  - TYPE="rubocop" TEST_COMMAND="bundle exec rubocop"
+script:
+  - (eval "$TEST_COMMAND")
