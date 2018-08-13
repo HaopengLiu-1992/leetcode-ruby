@@ -1,12 +1,13 @@
-require_relative "helper"
+require_relative 'helper'
 
+# Leetcode 2
 class AddTwoNumbers
   include Helper::LinkedListHelper
   def solution(l1, l2)
     l = ListNode.new(0)
     p = l
-    flag = 0;
-    while(!l1.nil? || !l2.nil? || flag != 0)
+    flag = 0
+    while !l1.nil? || !l2.nil? || !flag.zero?
       val = (l1.nil? ? 0 : l1.val) + (l2.nil? ? 0 : l2.val) + flag
       p.next = ListNode.new(val % 10)
       flag = val / 10
