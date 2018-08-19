@@ -29,4 +29,16 @@ module Helper
       head
     end
   end
+
+  module TreeHelper
+    # Define the TreeNode class
+    class TreeNode
+      attr_accessor :val, :left, :right
+      def initialize(val)
+        @val = val
+        @left = nil
+        @right = nil
+      end
+    end
+  end
 end
