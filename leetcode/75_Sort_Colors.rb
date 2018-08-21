@@ -1,3 +1,4 @@
+# Leetcode 75
 class SortColors
   # @param {Integer[]} nums
   # @return {Void} Do not return anything, modify nums in-place instead.
@@ -22,4 +23,4 @@ end
 
 # test
 test SortColors.new
-test.sort_colors([2, 0, 2, 1, 1, 0])
+puts test.sort_colors([2, 0, 2, 1, 1, 0])
