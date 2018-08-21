@@ -21,3 +21,9 @@ Metrics/CyclomaticComplexity:
 
 Naming/UncommunicativeMethodParamName:
   Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Next:
+  Enabled: false
