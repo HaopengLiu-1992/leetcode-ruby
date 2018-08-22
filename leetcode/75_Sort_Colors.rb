@@ -22,5 +22,5 @@ class SortColors
 end
 
 # test
-test SortColors.new
+test = SortColors.new
 puts test.sort_colors([2, 0, 2, 1, 1, 0])
