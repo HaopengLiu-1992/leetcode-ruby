@@ -23,4 +23,6 @@ end
 
 # test
 test = SortColors.new
-puts test.sort_colors([2, 0, 2, 1, 1, 0])
+arr = [2, 0, 2, 1, 1, 0]
+test.sort_colors(arr)
+puts arr.join(' ')
