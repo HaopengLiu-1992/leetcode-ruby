@@ -2,7 +2,7 @@ require_relative 'helper'
 
 # Leetcode 872
 class LeafSimilarTrees
-  include Helper::LinkedListHelper
+  include Helper::TreeHelper
   def leaf_similar(root1, root2)
     get_leaves(root1) == get_leaves(root2)
   end
