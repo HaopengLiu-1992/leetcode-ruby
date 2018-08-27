@@ -4,5 +4,6 @@ rvm: ruby-2.3.4
 dist: trusty
 env:
   - TYPE="rubocop" TEST_COMMAND="bundle exec rubocop"
+  - TYPE="test" TEST_COMMAND="bundle exec rake test"
 script:
   - (eval "$TEST_COMMAND")
