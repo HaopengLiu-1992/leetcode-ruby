@@ -30,3 +30,6 @@ Style/Next:
 
 Naming/ClassAndModuleCamelCase:
   Enabled: false
+
+Style/WordArray:
+  Enabled: false
