@@ -9,6 +9,6 @@ class LetterCombinationsOfAPhoneNumberTest < Test::Unit::TestCase
   def test_solution
     res = @check_combo.letter_combinations(@digits)
     puts res
-    assert_equal res, ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
+    assert_equal res, ['ad', 'ae', 'af', 'bd', 'be', 'bf', 'cd', 'ce', 'cf']
   end
 end

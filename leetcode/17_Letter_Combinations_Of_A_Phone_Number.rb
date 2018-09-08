@@ -1,10 +1,10 @@
 # Leetcode 17
 class LetterCombinationsOfAPhoneNumber
   def letter_combinations(digits)
-    return [] if digits.include?('0') || digits.include?('1') || digits.length == 0
-    decode = ['', '', 'abc' ,'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'wxyz']
+    return [] if digits.include?('0') || digits.include?('1') || digits.empty?
+    decode = ['', '', 'abc', 'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'wxyz']
     arr = ['']
-    return backtrack(digits, 0, arr, decode)
+    backtrack(digits, 0, arr, decode)
   end
 
   def backtrack(digits, i, arr, decode)
@@ -16,6 +16,6 @@ class LetterCombinationsOfAPhoneNumber
       end
     end
     arr = nxt
-    return backtrack(digits, i + 1, arr, decode)
+    backtrack(digits, i + 1, arr, decode)
   end
 end
