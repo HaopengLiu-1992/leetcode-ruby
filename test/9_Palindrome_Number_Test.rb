@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../leetcode/9_Palindrome_Number '
+require_relative '../leetcode/9_Palindrome_Number'
 class PalindromeNumberTest < Test::Unit::TestCase
   def setup
     @n = 121

@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../leetcode/20_Valid_Parentheses '
+require_relative '../leetcode/20_Valid_Parentheses'
 class ValidParenthesesTest < Test::Unit::TestCase
   def setup
     @s = '{[()]}'
