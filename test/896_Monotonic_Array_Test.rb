@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../leetcode/896_Monotonic_Array '
+require_relative '../leetcode/896_Monotonic_Array'
 class MonotonicArrayTest < Test::Unit::TestCase
   def setup
     @arr = [1, 2, 2, 3]

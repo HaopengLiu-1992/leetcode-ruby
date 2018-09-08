@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../leetcode/860_Lemonade_Change '
+require_relative '../leetcode/860_Lemonade_Change'
 class LemonadeChangeTest < Test::Unit::TestCase
   def setup
     @bills = [5, 5, 5, 10, 20]
