@@ -1,6 +1,6 @@
 require 'test/unit'
 require_relative '../leetcode/helper'
-require_relative '../leetcode/19_Remove_Nth_Node_From_End_Of_List '
+require_relative '../leetcode/19_Remove_Nth_Node_From_End_Of_List'
 class RemoveNthNodeFromEndOfListTest < Test::Unit::TestCase
   include Helper::LinkedListHelper
   def setup
