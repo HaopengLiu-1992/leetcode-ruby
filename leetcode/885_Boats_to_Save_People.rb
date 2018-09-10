@@ -13,9 +13,3 @@ class BoatsToSavePeople
     count
   end
 end
-
-# temp test:
-people = [1, 2, 3, 4, 5]
-limit = 5
-boats = BoatsToSavePeople.new
-puts "boats.solution(people,limit) = #{boats.solution(people, limit)}"

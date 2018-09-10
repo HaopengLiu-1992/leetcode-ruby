@@ -1,5 +1,4 @@
-# @param {String} str
-# @return {Integer}
+# Leetcode 3
 class LengthOfLongestSubString
   def solution(str)
     return 0 if str.empty?

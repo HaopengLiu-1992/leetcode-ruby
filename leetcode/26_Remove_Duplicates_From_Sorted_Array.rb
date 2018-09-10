@@ -1,7 +1,5 @@
-# Leetcode 867
+# Leetcode 26
 class RemoveDuplicatesFromSortedArray
-  # @param {Integer[]} nums
-  # @return {Integer}
   def remove_duplicates(nums)
     return nums.length if nums.length < 2
     p = 1
@@ -18,9 +16,3 @@ class RemoveDuplicatesFromSortedArray
     p
   end
 end
-
-# test
-test = RemoveDuplicatesFromSortedArray.new
-arr = [1, 1, 2]
-puts test.remove_duplicates(arr)
-puts arr.join(' ')
