@@ -1,8 +1,5 @@
 # Leetcode 167
-class Two_Sum_II
-  # @param {Integer[]} numbers
-  # @param {Integer} target
-  # @return {Integer[]}
+class TwoSumII
   def two_sum(numbers, target)
     i = 0
     j = numbers.length - 1
@@ -17,7 +14,3 @@ class Two_Sum_II
     end
   end
 end
-
-# test
-test = Two_Sum_II.new
-puts test.two_sum([2, 7, 11, 15], 9)

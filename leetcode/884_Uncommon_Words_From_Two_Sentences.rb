@@ -15,11 +15,3 @@ class UncommonWordsFromTwoSentences
     hash
   end
 end
-
-# temp test
-sen1 = 'this apple is sweet'
-sen2 = 'this apple is sour'
-
-func = UncommonWordsFromTwoSentences.new
-
-puts func.solution(sen1, sen2)
