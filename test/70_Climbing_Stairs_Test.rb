@@ -1,5 +1,5 @@
 require 'test/unit'
-require '../leetcode/70_Climbing_Stairs'
+require_relative '../leetcode/70_Climbing_Stairs'
 class ClimbingStairsTest < Test::Unit::TestCase
   def setup
     @test = ClimbingStairs.new
