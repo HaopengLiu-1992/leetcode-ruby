@@ -33,3 +33,6 @@ Naming/ClassAndModuleCamelCase:
 
 Style/WordArray:
   Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
