@@ -33,4 +33,5 @@ task :test do
   ruby 'test/896_*.rb'
   ruby 'test/900_*.rb'
   ruby 'test/901_*.rb'
+  ruby 'test/905_*.rb'
 end

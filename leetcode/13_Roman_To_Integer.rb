@@ -14,7 +14,6 @@ class RomanToInteger
         res += cur
         i += 1
       end
-      puts res
     end
     res
   end
