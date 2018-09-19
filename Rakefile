@@ -20,6 +20,7 @@ task :test do
   ruby 'test/83_*.rb'
   ruby 'test/136_*.rb'
   ruby 'test/167_*.rb'
+  ruby 'test/202_*.rb'
   ruby 'test/203_*.rb'
   ruby 'test/206_*.rb'
   ruby 'test/203_*.rb'
