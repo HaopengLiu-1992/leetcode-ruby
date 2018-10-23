@@ -36,3 +36,6 @@ Style/WordArray:
 
 Metrics/BlockLength:
   Enabled: false
+
+Style/ConditionalAssignment:
+  Enabled: false
