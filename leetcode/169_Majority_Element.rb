@@ -1,3 +1,4 @@
+# Leetcode 169
 class MajorityElement
   def majority_element(nums)
     count = 0
@@ -7,7 +8,7 @@ class MajorityElement
         count += 1
       else
         count -= 1
-        if count < 0
+        if count.negative?
           target = num
           count = 1
         end
