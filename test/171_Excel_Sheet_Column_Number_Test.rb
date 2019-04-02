@@ -6,6 +6,6 @@ class ExcelSheetColumnNumberTest < Test::Unit::TestCase
   end
 
   def test_solution
-    assert_equal @excel.title_to_number("AB"), 28
+    assert_equal @excel.title_to_number('AB'), 28
   end
 end
