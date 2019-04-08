@@ -1,5 +1,5 @@
 
-# Leetcode Practice in Ruby [![Build Status](https://travis-ci.org/liuhpleon/Leetcode-Ruby.svg?branch=master)](https://travis-ci.org/liuhpleon/Leetcode-Ruby)
+# Leetcode Practice in Ruby [![Build Status](https://travis-ci.org/liuhpleon/leetcode-ruby.svg?branch=master)
 
 Ruby Leetcode Project
 
