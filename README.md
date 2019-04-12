@@ -1,5 +1,6 @@
 
-# Leetcode Practice in Ruby [![Build Status](https://travis-ci.org/liuhpleon/leetcode-ruby.svg?branch=master)
+# Leetcode Practice in Ruby ![Build Status](https://travis-ci.org/liuhpleon/leetcode-ruby.svg?branch=master)<a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
+
 
 Ruby Leetcode Project
 
