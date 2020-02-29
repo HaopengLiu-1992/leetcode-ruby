@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rake', '~> 10.0.4'
+gem 'rake', '~> 12.3.3'
 
 gem 'rubocop', '~> 0.58.2', require: false
 
